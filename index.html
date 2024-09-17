@@ -7,12 +7,33 @@
     <link rel="icon" href="./asset/img/icon-p-x32.png" type="image/x-icon" sizes="32x32">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./asset/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Programatrix</title>
 </head>
 <body>
-    <!--Inicio -->
+    <!--Nav-->
     <header>
-
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#Inicio"><img src="./asset/img/logo-programatrix.png" alt="logo-programatrix" width="250" height="75"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#Nosotros">Quienes Somos</a>
+                        <a class="nav-link" href="#Productos">Productos</a>
+                        <a class="nav-link" href="#Servicios">Servicios</a>
+                        <a class="nav-link" href="#Redes-Sociales">Redes Sociales</a>
+                        <a class="nav-link" href="#Ubicacion">Ubicacion</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!--Inicio-->
@@ -24,8 +45,9 @@
     <!--Sobre Nosotros -->
     <section id="sobre-nosotros">
         <h2>Sobre Nosotros</h2>
-        <p>Somos un equipo dedicado al desarrollo web, expertos en crear soluciones personalizadas usando las últimas tecnologías como el stack MERN. Nuestra misión es llevar tu negocio al mundo digital de manera eficiente y profesional.</p>
+        <p>En Programatrix Webworks, convertimos ideas en realidades digitales. Nos apasiona crear páginas web que no solo destacan por su diseño, sino que también proporcionan experiencias de usuario impecables. Trabajamos de la mano contigo para asegurar que tu proyecto refleje tu visión, mientras te brindamos soluciones innovadoras y un soporte constante. Tu éxito es nuestra meta.</p>
     </section>
+    <!--Pilares-->
     <section id="pilares">
         <h2>Nuestros Pilares</h2>
         <div class="pilar">
@@ -45,6 +67,69 @@
         </div>
     </section>
 
+    <!--Nuestro Equipo-->
+    <section id="nuestro-equipo">
+        <h2>Nuestro Equipo</h2>
+        <div class="container-empleados">
+            <!--Empleado 1-->
+            <div class="empleado-card">
+                <img src="./asset/img/imagen-ceo.jpeg" alt="Foto-del-CEO" class="foto-empleado">
+                <div class="info-empleado">
+                    <h3>Yonathan Pachado</h3>
+                    <p><strong>CEO / Programador</strong></p>
+                    <p>Soy el fundador de Programatrix Webworks y me encargo de liderar los proyectos de desarrollo web con tecnologías avanzadas como el stack MERN y otros. Mi objetivo es crear soluciones web personalizadas que se adapten a las necesidades de cada cliente, asegurando calidad y soporte continuo en todo momento.</p>
+                    <!--Habilidades-->
+                    <ul class="skills">
+                        <p><strong>Skills</strong></p>
+                        <li>Desarrollo con MERN (MongoDB, Express, React, Node.js)</li>
+                        <li>Soluciones web personalizadas</li>
+                        <li>Soporte y mantenimiento técnico</li>
+                    </ul>
+                    <!-- Redes Sociales -->
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.tu-pagina-web.com" target="_blank"><i class="fas fa-globe"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Empleado 2-->
+            <div class="empleado-card">
+                <img src="tu-foto.jpg" alt="Foto-del-CEO" class="foto-empleado">
+                <div class="info-empleado">
+                    <h3>Cooming Soon</h3>
+                    <p><strong>Cooming Soon</strong></p>
+                    <p>En un Futuro estos apartados se iran rellenando con nuevos empleados.</p>
+                    <!--Habilidades-->
+                    <ul class="skills">
+                        <p><strong>Skills</strong></p>
+                        <li>Cooming Soon</li>
+                        <li>Cooming Soon</li>
+                        <li>Cooming Soon</li>
+                    </ul>
+                    <!-- Redes Sociales -->
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Vision Futura-->
+    <section id="vision-futuro">
+        <h2>Visión de Futuro</h2>
+        <div class="expansion">
+            <p>Actualmente, Programatrix Webworks es liderada y operada exclusivamente por mí, [Tu Nombre], como CEO y Programador. Mi enfoque está en ofrecer un servicio personalizado y dedicado a cada proyecto. Sin embargo, a medida que la miniempresa continúe desarrollándose y crezca, planeo expandir el equipo para incorporar más talentos y así ampliar la capacidad de ofrecer soluciones aún más innovadoras y efectivas.</p>
+        </div>
+    </section>
+    
+    
     <!--Contacto con redes sociales -->
     <section id="contacto">
         <h2>Contacto</h2>
@@ -52,7 +137,7 @@
         <ul class="social-media">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
             <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+            <li><a href="mailto:programatrixwebworks@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>programatrixwebworks@gmail.com</a></li>
         </ul>
         <form action="#" method="post">
             <label for="name">Nombre:</label>
@@ -68,6 +153,13 @@
     <!-- Footer-->
     <footer>
         <p>&copy; 2024 Programatrix Webworks. Todos los derechos reservados.</p>
-    </footer>
+        <p>Tecnologías utilizadas:</p>
+        <ul class="tecnologias">
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+        </ul>
+    </footer> 
 </body>
 </html>
