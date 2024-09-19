@@ -315,7 +315,7 @@ margin-bottom: 2rem;
     align-items: center;
 }
 .skills li::before {
-    content: "✨";
+    content: "✔️";
     margin-right: 8px;
 }
 .social-media-empleado {
@@ -598,6 +598,7 @@ footer p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    color: #00ccff;
 }
 .tecnologias li, .librerias li {
     margin: 0 1rem;
