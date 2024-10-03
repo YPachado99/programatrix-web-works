@@ -64,7 +64,7 @@ body{
 /* Título */
 #sobre-nosotros h2 {
     color: #00aaff;
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-bottom: 4rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
 }
@@ -92,7 +92,7 @@ body{
 /* Título */
 #pilares h2 {
     color: #00aaff;
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
 }
@@ -156,7 +156,7 @@ margin-bottom: 2rem;
 }
 #servicios h2 {
     color: #00ccff; 
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
 }
@@ -214,7 +214,7 @@ margin-bottom: 2rem;
 }
 /* Título */
 #vision-futuro h2 {
-    font-size: 3.6rem;
+    font-size: 4rem;
     color: #00aaff;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
@@ -317,7 +317,7 @@ margin-bottom: 2rem;
 }
 #proyectos h2 {
     color: #00ccff;
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
 }
@@ -421,7 +421,7 @@ margin-bottom: 2rem;
 }
 #nuestro-equipo h2 {
     color: #00ccff;
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
 }
@@ -533,7 +533,7 @@ margin-bottom: 2rem;
     border-radius: 1rem;
 }
 #contacto h2 {
-    font-size: 3.6rem;
+    font-size: 4rem;
     color: #00aaff;
     margin-bottom: 5rem;
     text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.5);
